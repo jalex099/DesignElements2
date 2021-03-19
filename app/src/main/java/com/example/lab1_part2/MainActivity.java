@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         ImageView imageview = (ImageView) findViewById(R.id.image);
         Drawable drawable = imageview.getBackground();
         if (drawable instanceof ClipDrawable) {
-            ((ClipDrawable)drawable).setLevel(drawable.getLevel() + 3500);
+            ((ClipDrawable)drawable).setLevel(drawable.getLevel() + 4500);
         }
         Resources res = getResources();
         Drawable shape = ResourcesCompat.getDrawable(res, R.drawable.shape, getTheme());

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <inset xmlns:android="http://schemas.android.com/apk/res/android"
-    android:drawable="@drawable/background"
-    android:insetRight="10dp"
-    android:insetLeft="10dp">
+    android:drawable="@mipmap/ic_profile"
+    android:insetLeft="5dp"
+    android:insetTop="20dp">
 
 </inset>
